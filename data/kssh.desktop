@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=0.8
+Name=kssh
+Name[it]=kssh
+Name[de]=kssh
+Type=Application
+Exec=kssh -caption "%c" %i %m
+TryExec=kssh
+Icon=kssh.png
+DocPath=kssh/index.html
+Comment=A Secure Shell front-end
+Comment[it]=Un front-end per Secure Shell
+Comment[de]=Ein GUI für SSH
+GenericName=Secure Shell front-end
+GenericName[de]=SSH GUI
+GenericName[it]=Front-end per Secure Shell
+Terminal=false
+Categories=System;
+X-MultipleArgs=false
+StartupNotify=true
